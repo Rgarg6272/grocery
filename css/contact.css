@@ -1,0 +1,104 @@
+body{
+  background: #ffffff;
+}
+.a{
+    background: #0000009c;
+}
+.logo
+   {
+    font-size: 20px;
+   font-family: 'Pacifico', cursive;
+   margin-left: 10px;
+   }
+  .logo1
+   {
+    font-size: 20px;
+   font-family: 'Pacifico', cursive;
+   margin-left: 10px;
+   }
+    .nav-link
+    {
+        margin: 8px;
+        font-family: Montserrat,sans-serif;
+       
+    }
+    .navu
+    {
+      display: none;
+      color: white;
+      text-decoration: none;
+    }
+    @media (max-width: 1200px)
+    {
+      .nav-link
+      {
+        display: none;
+      }
+     .navu {
+        display: block;
+       margin: 5px;
+        font-family: Montserrat,sans-serif;
+        font-size: 15px;
+        color: white;
+       
+      }
+    }
+     .ml-auto
+ {
+  margin-left: auto!important;
+ }
+ .dropdown:hover>.dropdown-menu {
+  display: block;
+  }
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.box
+{
+     position: relative;
+     font-family: Helvetica;
+}
+.mob-banner {
+    display: none;
+}
+.img-title {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 30%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.brandsline{
+    font-size: 60px;
+}
+.brandsline2{
+  font-size: 40px;
+} 
+.contact-us-1{
+  padiing: 3%;
+}
+.contact-us-2{
+  padiing: 3%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

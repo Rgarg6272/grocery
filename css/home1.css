@@ -1,0 +1,110 @@
+body{
+  background: #ffffff;
+}
+.a{
+    background: #0000009c;
+}
+
+.logo
+   {
+    font-size: 20px;
+   font-family: 'Pacifico', cursive;
+   margin-left: 10px;
+   }
+  .logo1
+   {
+    font-size: 20px;
+   font-family: 'Pacifico', cursive;
+   margin-left: 10px;
+   }
+
+.nav-link
+    {
+        margin: 8px;
+        font-family: Montserrat,sans-serif;
+       
+    }
+    .navu
+    {
+      display: none;
+      color: white;
+      text-decoration: none;
+    }
+    @media (max-width: 1200px)
+    {
+      .nav-link
+      {
+        display: none;
+      }
+     .navu {
+        display: block;
+       margin: 5px;
+        font-family: Montserrat,sans-serif;
+        font-size: 15px;
+        color: white;
+       
+      }
+    }
+     .ml-auto
+ {
+  margin-left: auto!important;
+ }
+ .dropdown:hover>.dropdown-menu {
+  display: block;
+  }
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.btn
+{
+  background-color: #3c8c5b; 
+  color: white;
+  margin-left: 35px;
+}
+@media (max-width: 700px)
+{
+  .btn{
+       position: relative;
+       left: 50px;
+  }
+}
+
+
+.i1{
+   width: 100%;
+   height: 250px;
+}
+.i2{
+  width: 100%;
+}
+.i3{
+  width: 100%;
+}
+.hotel
+{
+ color: black;
+ 
+}
+.ote
+{
+
+ color: black;
+
+}
+.ho
+{
+ color: black;
+}
+.city
+{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: UberMove-Bold, sans-serif;
+}
+
+.y{
+    width: 75%;
+    left: 15%;
+  }

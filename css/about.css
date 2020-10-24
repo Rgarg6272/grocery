@@ -1,0 +1,106 @@
+body{
+  background: #ffffff;
+}
+.a{
+    background: #0000009c;
+}
+.logo
+   {
+    font-size: 20px;
+   font-family: 'Pacifico', cursive;
+   margin-left: 10px;
+   }
+  .logo1
+   {
+    font-size: 20px;
+   font-family: 'Pacifico', cursive;
+   margin-left: 10px;
+   }
+   .nav-link
+    {
+        margin: 8px;
+        font-family: Montserrat,sans-serif;
+       
+    }
+    .navu
+    {
+      display: none;
+      color: white;
+      text-decoration: none;
+    }
+    @media (max-width: 1200px)
+    {
+      .nav-link
+      {
+        display: none;
+      }
+     .navu {
+        display: block;
+       margin: 5px;
+        font-family: Montserrat,sans-serif;
+        font-size: 15px;
+        color: white;
+       
+      }
+    }
+     .ml-auto
+ {
+  margin-left: auto!important;
+ }
+ .dropdown:hover>.dropdown-menu {
+  display: block;
+  }
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.box
+{
+     position: relative;
+     font-family: Helvetica;
+}
+.mob-banner {
+    display: none;
+}
+.img-title {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 40%;
+    letter-spacing: 0px;
+    
+}
+
+.brandsline{
+    font-size: 80px;
+}
+
+
+.text-content{
+	letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.about-image{
+	width: 100%;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.papa-image{
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+  width: 80%;
+  height: 410px;
+}
+.text-left {
+    text-align: left!important;
+}
+.papa-content{
+		font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+	}
